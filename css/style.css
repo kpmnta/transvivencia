@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+.img-logo {
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #EFEBF2;
+    height: 130px;
+
+}
+
+nav {
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold
+
+}
+
+.apoiar {
+    background-color: ;
+}
+
+
+.ativo {
+    color: #BB0E6D;
+}
+
+.casatrans {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sobre-casa h2{
+    font-family: 'Cousine', monospace;
+    font-size: 32px;
+}
+
+.sobre-casa p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    max-width: 610px;
+}
+
+.icones-redes{
+    display: flex;
+}
+
+
+
+
+#header-bg{
+    width: 100%;
+    background-image: 
+        linear-gradient(to right, RGB(58, 144, 202), RGB(58, 144, 202)), /*cor 1 azul*/
+        linear-gradient(to right, RGB(235, 186, 210), RGB(235, 186, 210)),/*cor 2 rosa*/
+        linear-gradient(to right, RGB(100, 100, 100), RGB(100, 100, 100)), /*cor 3 branco*/
+        linear-gradient(to right, RGB(235, 186, 210), RGB(235, 186, 210)),/*cor 2 rosa*/
+        linear-gradient(to right, RGB(58, 144, 202), RGB(58, 144, 202)); /*cor 1 azul*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 30px;
+
+}
