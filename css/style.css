@@ -49,9 +49,10 @@ nav a {
     color: #BB0E6D;
 }
 
-.casatrans {
+#casatrans {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
 }
 
@@ -60,30 +61,51 @@ nav a {
     font-size: 32px;
 }
 
+.sobre-casa h2:after {
+	content: "";
+	display: block;
+	width: 550px;
+	height: 25px;
+	background-color: #F1CFDF;
+    margin-top: -17px;
+    margin-left: -150px;
+
+}
+
 .sobre-casa p{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 22px;
+    line-height: 40px;
     max-width: 610px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.quero-doar {
+    background-color: #BB0E6D;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.img-pride {
+    width: 470px;
 }
 
 .icones-redes{
     display: flex;
+    justify-content: center;
+    margin-top:35px;
+    padding: ;
 }
 
-
-
-
-#header-bg{
-    width: 100%;
-    background-image: 
-        linear-gradient(to right, RGB(58, 144, 202), RGB(58, 144, 202)), /*cor 1 azul*/
-        linear-gradient(to right, RGB(235, 186, 210), RGB(235, 186, 210)),/*cor 2 rosa*/
-        linear-gradient(to right, RGB(100, 100, 100), RGB(100, 100, 100)), /*cor 3 branco*/
-        linear-gradient(to right, RGB(235, 186, 210), RGB(235, 186, 210)),/*cor 2 rosa*/
-        linear-gradient(to right, RGB(58, 144, 202), RGB(58, 144, 202)); /*cor 1 azul*/
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 100% 30px;
-
+.fab {
+    color: #3D3535;
+    font-size: 32px;
+    padding: 0 35px;
 }
