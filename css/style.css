@@ -5,70 +5,61 @@
     list-style: none;
 }
 
-.img-logo {
-    margin: auto;
-}
-
-.logo {
-    width: 100px;
-    margin-left: 20px;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-    background-color: #EFEBF2;
-    height: 130px;
-
-}
-
-nav {
-    margin: auto;
-}
+/* bootrasp nav */
 
 nav a {
-    text-decoration: none;
-    color: #181818;
     text-align: center;
-    padding: 12px;
-    font-size: 15px;
-    line-height: 24px;
-    margin: 50px;
+    font-size: 0.9rem;
+    margin: 0 60px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold
-
+    font-weight: bold;
 }
 
-.apoiar {
-    background-color: ;
-}
-
-
-.ativo {
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link {
     color: #BB0E6D;
+
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item:hover .nav-link {
+    color: #BB0E6D;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #BB0E6D;
+}
+
+/* a casa transvivencia  */
+
+.container {
+    background-image: url(../img/bg_index.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    min-height: 100%;
 }
 
 #casatrans {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 50px;
 
 }
 
-.sobre-casa h2{
+.heading-rosa{
     font-family: 'Cousine', monospace;
     font-size: 32px;
 }
 
-.sobre-casa h2:after {
+.heading-rosa:after {
 	content: "";
 	display: block;
 	width: 550px;
 	height: 25px;
 	background-color: #F1CFDF;
     margin-top: -17px;
-    margin-left: -150px;
+    margin-left: -127px;
 
 }
 
@@ -90,7 +81,15 @@ nav a {
     font-family:'Montserrat', sans-serif; 
     font-weight: bold;
     color: #fff;
+    text-decoration: none;
     
+}
+
+.quero-doar:hover{
+    text-decoration: none;
+    color: #BB0E6D;
+    background-color: #fff;
+    border: 2px solid #BB0E6D;
 }
 
 .img-pride {
@@ -101,11 +100,121 @@ nav a {
     display: flex;
     justify-content: center;
     margin-top:35px;
-    padding: ;
 }
 
 .fab {
     color: #3D3535;
     font-size: 32px;
     padding: 0 35px;
+}
+
+/* quem somos */
+
+.quem-somos{
+    margin: 35px 0 ;
+}
+
+.heading-azul{
+    font-family: 'Cousine', monospace;
+    font-size: 32px;
+    padding: 25px 0;
+}
+
+.heading-azul:after {
+	content: "";
+	display: block;
+	width: 450px;
+	height: 25px;
+	background-color: #9CC7E4;
+    margin-top: -17px;
+    margin-left: -170px;
+}
+
+.img-fundadores {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.img-fundadores img{
+    max-width: 100%;
+}
+
+.conteudo-casa {
+    max-width: 1110px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-top: 25px;
+}
+
+/* blog */
+
+.conteudo-blog h5{
+    margin: 25px 0;
+}
+
+.conteudo-blog p {
+    font-size: 1.1rem;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    border:none;
+}
+
+.card img{
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+.card-link {
+    color:#000;
+    font-weight: bold;
+}
+
+.card-link:hover{
+    color: #BB0E6D;;
+}
+
+.view-all{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-blog {
+    background-color: #BB0E6D;
+    padding: 12px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    color: #fff;
+}
+
+.cta-blog:hover{
+    text-decoration: none;
+    color: #BB0E6D;
+    background-color: #fff;
+    border: 2px solid #BB0E6D;
+}
+
+.button-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-button a {
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
 }

@@ -6,41 +6,57 @@
         <title>Casa Transvivência - Acolhimento e suporte à comunidade LGBTQIA+</title>
         <script src="https://kit.fontawesome.com/476d3c02b7.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
         <meta name="description" content="">
     </head>
     <body>
         <!--HEADER-->
         
-        <header>
-            <div class="img-logo">
-                <a href="#"><img class="logo" src="img/logo-teste.png" alt="Logo Casa Transvivencia"></a>
-            </div>
-            <nav class="links-header">
-                <a href="#home">início</a>
-                <a href="#quemsomos">quem somos</a>
-                <a class="ativo" href="#blog">blog</a>
-                <a href="#contato">contato</a>
-                <a href="#artistas">nossos artistas</a>
-                <a href="#apoiar">apoiar</a>
-            </nav>    
-
-        </header>
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand logo" href="#">
+                    <img src="img/logo-teste.png" width="100"  alt="logo casa transvivencia" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav navbar-custom">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">nossos artistas</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">contato</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
         <!--MAIN-->
+
         <main>
+          <div class="container">
+            <!-- <div class="bg"> -->
             <section id="casatrans">
                 <div class="sobre-casa">
-                    <h2>A Casa Transvivência</h2>
+                    <h2 class="heading-rosa">A Casa Transvivência</h2>
                     <p>A Casa Transvivência é um projeto criado por quatro jovens durante o período de pandemia com o propósito de abrigar jovens trans da cidade de Florianópolis, garantindo a todes um teto justo e seguro.</p>
                     <a class="quero-doar" href="#">quero fazer uma doação</a>
                 </div>
-
                 <div class="ilustra">
                     <div>
-                        <img class="img-pride" src="img/pride1.jpg" alt="ilustração orgulho LGBTQIA+">
+                        <img class="img-pride" src="img/pride1.png" alt="ilustração orgulho LGBTQIA+">
                     </div> 
                     <ul class="icones-redes">
                         <li><a target="_blank" href="https://www.facebook.com/casatransvivencia"><i class="fab fa-facebook-f"></i></a></li>
@@ -49,7 +65,63 @@
                     </ul> 
                 </div>
             </section>
-
+            <section class="quem-somos">
+              <h2 class="heading-azul">Quem Somos</h2>
+                <div class="img-fundadores">
+                  <img src="img/imagem05.png" alt="Fundadores Casa Transvivência">
+                </div>  
+                <div class="conteudo-casa">
+                  <p>A Casa Transvivência se apresenta como um lar: não só para acolhimento, mas também como um local seguro para pessoas que enfrentam questões como o abandono familiar.</p>
+                  <p>Nosso plano é ampliar a capacidade de acolhimento pois entendemos que muitas pessoas, principalmente artistas que necessitavam sair de suas casas para trabalhar, acabaram sendo impossibilitadas de exercerem suas atividades de geração de renda e sustento.</p>
+                  <p>Atualmente a Casa vive de doações, se localiza no bairro Saco dos Limões, e é administrada pelo poeta Caio Ciríaco Lima.</p>
+                </div>
+            </section class="blog">
+              <h2 class="heading-rosa">Blog da Casa</h2>
+              <div class="conteudo-blog">
+                <h5>Acompanhe a Casa Transvivência e nossos artistas!</h5>
+                <p>A Casa Transvivência é um espaço que apoia artistas a se expressarem livremente. Através do nosso blog, você pode acompanhar um pouco do trabalho dos nossos artistas, e também pode conhecer um pouco do nosso cotidiano e da nossa vivência.</p>
+              </div>
+              <div class="row planos-container">
+                <div class="card col-md-4">
+                  <img src="img/imagem02.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Assalto de Gênero</h5>
+                      <p class="card-text">“Tei tei tei é tiro pra todo lado mais uma trans foi assassinada com pessoas filmando e ninguém fez nada..."</p>
+                      <a target="_blank" href=# class="card-link">Ler Mais</a>
+                    </div>
+                  </div>
+                  <div class="card col-md-4">
+                    <img src="img/imagem02.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Assalto de Gênero</h5>
+                      <p class="card-text">“Tei tei tei é tiro pra todo lado mais uma trans foi assassinada com pessoas filmando e ninguém fez nada..."</p>
+                      <a target="_blank" href=# class="card-link">Ler Mais</a>
+                    </div>
+                  </div>
+                  <div class="card col-md-4">
+                    <img src="img/imagem02.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Assalto de Gênero</h5>
+                      <p class="card-text">“Tei tei tei é tiro pra todo lado mais uma trans foi assassinada com pessoas filmando e ninguém fez nada..."</p>
+                      <a target="_blank" href=# class="card-link">Ler Mais</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="view-all">
+                  <a class="cta-blog" href="#">ver todos os posts</a>
+                </div>  
+            <section class="contato">
+              <h2 class="heading-azul">Contato</h2>
+              <div class="conteudo-contato">
+                <h5>Fale com a Casa Transvivência!</h5>
+                <p>Endereço: Rua Juan Ganzo Fernandes | Bairro Saco dos Limões | Florianópolis-SC </br>
+                Horário de atendimento: segunda à segunda, das 8:00 às 20:00</br>
+                E-mail: casatransvivência2020@gmail.com</br>
+                Você também pode entrar em contato pelas nossas redes sociais ou pelo formulário abaixo:</p>
+              </div>
+            </section>
+          <!-- </div> -->
+          </div>    
         </main>
 
         <!--SIDEBAR-->
@@ -57,6 +129,8 @@
 
         <!--FOOTER-->
         <div class="footer"></div>
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
